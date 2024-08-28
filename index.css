@@ -1,0 +1,122 @@
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fb_text > div {
+    font-size: 25px;
+}
+.fb_login_container {
+    height: 352.59px;
+    width: 396px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+.fb_img {
+    height: 70px;
+    margin: -20px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: grey;
+    height: 50%;
+    width: 100%;
+}
+form:nth-child(1) {
+    margin-top: 5px;
+}
+input {
+    font-size: 19px;
+    width: 364px;
+    flex-grow: 1;
+    margin: 5px 0px;
+    padding: 6px 0;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #dddfe2;
+    padding: 14px 10px;
+    width: 330px;
+    border-radius: 6px;
+}
+.newAccount {
+    color: white;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 19px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.submit {
+    display: inline;
+    color: white;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    line-height: 48px;
+    padding: 0 70px;
+    width: 350px;
+}
+
+.fb_page {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fb_line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    /* display: flex; */
+    margin-top: 20px 16px;
+    text-align: center;
+    width: 90%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #0866ff;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .fb_img {
+        margin-left: 30%;
+    }
+}
